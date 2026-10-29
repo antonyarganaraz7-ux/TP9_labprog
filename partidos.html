@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial 2026 - Partidos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Partidos de Argentina</h1>
+        <p>Todos los resultados de la Selección en el Mundial 2026</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="partidos.html">Partidos</a>
+        <a href="posiciones.html">Posiciones</a>
+    </nav>
+
+    <main>
+        <h2>Resultados</h2>
+
+        <table>
+            <tr>
+                <th>Fecha</th>
+                <th>Fase</th>
+                <th>Partido</th>
+                <th>Resultado</th>
+                <th>Mensaje</th>
+            </tr>
+            <tr>
+                <td>16/06</td>
+                <td>Grupo J</td>
+                <td>Argentina vs Argelia</td>
+                <td>3 - 0</td>
+                <td><button onclick="mostrarResultado('Argentina', 3, 'Argelia', 0)">Ver</button></td>
+            </tr>
+            <tr>
+                <td>22/06</td>
+                <td>Grupo J</td>
+                <td>Argentina vs Austria</td>
+                <td>2 - 0</td>
+                <td><button onclick="mostrarResultado('Argentina', 2, 'Austria', 0)">Ver</button></td>
+            </tr>
+            <tr>
+                <td>27/06</td>
+                <td>Grupo J</td>
+                <td>Jordania vs Argentina</td>
+                <td>1 - 3</td>
+                <td><button onclick="mostrarResultado('Argentina', 3, 'Jordania', 1)">Ver</button></td>
+            </tr>
+            <tr>
+                <td>03/07</td>
+                <td>16avos de final</td>
+                <td>Argentina vs Cabo Verde</td>
+                <td>3 - 2</td>
+                <td><button onclick="mostrarResultado('Argentina', 3, 'Cabo Verde', 2)">Ver</button></td>
+            </tr>
+            <tr>
+                <td>07/07</td>
+                <td>Octavos de final</td>
+                <td>Argentina vs Egipto</td>
+                <td>3 - 2</td>
+                <td><button onclick="mostrarResultado('Argentina', 3, 'Egipto', 2)">Ver</button></td>
+            </tr>
+            <tr>
+                <td>11/07</td>
+                <td>Cuartos de final</td>
+                <td>Argentina vs Suiza</td>
+                <td>3 - 1</td>
+                <td><button onclick="mostrarResultado('Argentina', 3, 'Suiza', 1)">Ver</button></td>
+            </tr>
+            <tr>
+                <td>15/07</td>
+                <td>Semifinal</td>
+                <td>Argentina vs Inglaterra</td>
+                <td>2 - 1</td>
+                <td><button onclick="mostrarResultado('Argentina', 2, 'Inglaterra', 1)">Ver</button></td>
+            </tr>
+            <tr>
+                <td>19/07</td>
+                <td>Final</td>
+                <td>España vs Argentina</td>
+                <td>1 - 0</td>
+                <td><button onclick="mostrarResultado('Argentina', 0, 'España', 1)">Ver</button></td>
+            </tr>
+        </table>
+
+        <p>Tocá el botón "Ver" para saber si Argentina ganó o perdió ese partido.</p>
+    </main>
+
+    <footer>
+        <p>La mejor seleccion de todas ★★★</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
